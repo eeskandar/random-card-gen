@@ -1,1 +1,24 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card-base {
+  width: 350px;
+  height: 500px;
+  margin-top: 60px;
+  border-radius: 25px;
+  font-size: 110px;
+}
+
+.red {
+  color: red;
+}
+
+.sign-top,
+.sign-bot {
+  text-align: left;
+}
+
+.sign-bot {
+  transform: rotate(180deg);
+}
